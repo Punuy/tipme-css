@@ -1,0 +1,56 @@
+.DonateGoal_progress__progress {
+	background: #1b1b1b !important;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6) !important;
+	border-radius: 6px !important;
+	overflow: hidden !important;
+	width: 100% !important;
+	height: 22px !important;
+	line-height: 22px !important;
+	position: relative !important;
+}
+
+.DonateGoal_progress__done {
+	background: linear-gradient(90deg, #a2e4ff, #6ecbff) !important;
+	box-shadow: 0 0 8px rgba(120, 200, 255, 0.5) !important;
+	border-right: none !important;
+	height: 22px !important;
+	transition: width 1s ease-out !important;
+}
+
+.DonateGoal_progress__text {
+	position: relative !important;
+	z-index: 2 !important;
+	text-align: center !important;
+	color: #ffffff !important;
+	font-size: 15pt !important;
+	font-weight: 600 !important;
+	line-height: 22px !important;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4) !important;
+	font-family: 'Mitr', sans-serif !important;
+}
+
+.DonateGoal_style__name {
+	color: #ffffff !important;
+	font-size: 22pt !important;
+	text-align: center !important;
+	font-weight: -00 !important;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.2) !important;
+	font-family: 'Mitr', sans-serif !important;
+	margin-bottom: 4px !important;
+}
+
+
+.DonateGoal_style__start,
+.DonateGoal_style__end {
+	color: #ffffff !important;
+	font-size: 18pt !important;
+	text-shadow: 0 0 4px rgba(255, 255, 255, 0.2) !important;
+	font-family: 'Mitr', sans-serif !important;
+}
+
+.DonateGoal_style__deadline {
+	color: #ffffff !important;
+	font-size: 14pt !important;
+	text-shadow: 0 0 4px rgba(255, 255, 255, 0.2) !important;
+	font-family: 'Mitr', sans-serif !important;
+}
